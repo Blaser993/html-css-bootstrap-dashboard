@@ -12,3 +12,40 @@
    --yellow:#FFC107;
    --red:#DC3545;
 }
+
+[class*="bla"]{
+    border: 2px dashed salmon;
+}
+
+
+/* ###########################################
+LAYOUT RULES
+########################################### */
+
+.bla_main-container{
+    height: 100vh;
+}
+
+
+.bla_header{
+    background-color: var(--bg-light);
+}
+
+.bla_main{
+    background-color: var(--primary);
+    color: var(--withe);
+}
+
+.bla_sidebar{
+    background-color: var(--bg-dark);
+    color: var(--withe);
+    width: 150px;
+}
+
+@media screen and (max-width:768px){
+
+    .bla_sidebar{
+        width: 68px;
+    }
+
+}
