@@ -18,6 +18,15 @@ img{
     max-width: 100%;
 }
 
+menu,
+ul,
+ol,
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 [class*="bla"]{
     border: 2px dashed salmon;
 }
@@ -74,5 +83,9 @@ ELEMENT RULES
     height: 50px;
     margin: 18px 0;
     margin-left: 18px;
+}
+
+.bla_secondary-color{
+    color: var(--secondary);
 }
 
