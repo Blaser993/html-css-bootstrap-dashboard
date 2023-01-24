@@ -13,6 +13,11 @@
    --red:#DC3545;
 }
 
+img{
+    display: block;
+    max-width: 100%;
+}
+
 [class*="bla"]{
     border: 2px dashed salmon;
 }
@@ -49,3 +54,25 @@ LAYOUT RULES
     }
 
 }
+
+
+/* ###########################################
+ELEMENT RULES
+########################################### */
+
+
+.bla_header img{
+    display: block;
+    max-width: 100%;
+}
+
+
+.bla_logo-mobile{
+    height: 84px;
+}
+.bla_logo-extended{
+    height: 50px;
+    margin: 18px 0;
+    margin-left: 18px;
+}
+
