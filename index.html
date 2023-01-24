@@ -52,7 +52,29 @@
                                         <li class="col-3 d-none d-md-block p-0"><button class="btn" type="submit"><i class="fa-solid fa-circle-question"></i></button></li>
                                         <li class="col-3 d-none d-md-block p-0"><button class="btn" type="submit"><i class="fa-solid fa-ellipsis-vertical"></i></button></li>
                                         <!-- Solo expanded -->
-                                        <li class="col-3 p-0"><button class="btn bla_secondary-color" type="submit"><i class="fa-solid fa-bell"></i></button></li>
+
+                                        <!-- bottone del modale -->
+                                        <li class="col-3 p-0"><button class="btn bla_secondary-color" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit"><i class="fa-solid fa-bell"></i></button></li>
+
+                                        <!-- modale -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-sm me-4 mt-4">
+                                                <div class="modal-content">
+                                                    <div class="modal-body">
+                                                        <div class="container-fluid">
+                                                            <ul class="row flex-column">
+                                                                <li class="col-1">Profilo</li>
+                                                                <li class="col-1">Fatturazione</li>
+                                                                <li class="col-1">Logout</li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--fine modale -->
+
                                     </ul>
                                 </div>
 
