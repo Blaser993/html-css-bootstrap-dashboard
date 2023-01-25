@@ -1,6 +1,7 @@
 :root{
     --bg-light: #F8F9FA;
     --primary: #1B72E8;
+    --alternative:#165BBA;
     --secondary:#FFC107;
     --bg-dark: #051E34;
 
@@ -11,6 +12,8 @@
    --green:#198754;
    --yellow:#FFC107;
    --red:#DC3545;
+
+   --bs-breadcrumb-divider:var(--withe);
 }
 
 img{
@@ -94,13 +97,15 @@ ELEMENT RULES
     color: var(--secondary);
 }
 
+.btn-primary{
+    background-color: var(--alternative);
+}
+
+
+
 
 
 /* ###########################################
 DEBUG RULES
 ########################################### */
 
-.bla_dashboard [class ^="col-"]{
-    padding: 12px;
-    border: dashed 2px salmon;
-}
