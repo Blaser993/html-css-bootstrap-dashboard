@@ -101,6 +101,22 @@ ELEMENT RULES
     background-color: var(--alternative);
 }
 
+.btn-icon{
+    color: var(--withe);
+}
+
+.offcanvas{
+    min-width: 50vw;
+}
+
+@media screen and (max-width:768px){
+
+    .offcanvas{
+        min-width: 100vw;
+    }
+
+}
+
 
 
 
