@@ -132,60 +132,107 @@
                                         <div class="offcanvas-body">
                                         
                                             <div class="container-fluid">
-                                                <div class="row">
+                                                <form class="row">
                                                     <div class="col-12 col-sm-6">
-                                                        nome
+                                                        <div class="mb-3">
+                                                            <label for="name" class="form-label">Nome</label>
+                                                            <input type="text" class="form-control" id="name">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-6">
-                                                        cognome
+                                                        <div class="mb-3">
+                                                            <label for="surname" class="form-label">Cognome</label>
+                                                            <input type="text" class="form-control" id="surname">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-6">
-                                                        email
+                                                        <label for="email1" class="form-label">Email</label>
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                                            <input type="mail" class="form-control" aria-label="mail1" aria-describedby="basic-addon1">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-6">
-                                                        pasw
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                                        </div>
                                                     </div>
 
                                                     <div class="d-none d-md-block col-md-6">
-                                                        indirizzomail
+                                                        <label for="email2" class="form-label">Indirizzo Email</label>
+                                                        <div class="input-group mb-3">
+                                                            <span class="input-group-text" id="basic-addon1">@</span>
+                                                            <input type="mail" class="form-control" aria-label="mail2" aria-describedby="basic-addon1">
+                                                        </div>
                                                     </div>
 
                                                     <div class="d-none d-md-block col-md-6">
-                                                        pasw
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword2" class="form-label">Password</label>
+                                                            <input type="password" class="form-control" id="exampleInputPassword2">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-12">
-                                                        indirizzo
+                                                        <div class="mb-3">
+                                                            <label for="address" class="form-label">Indirizzo</label>
+                                                            <input type="text" class="form-control" id="address">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-6">
-                                                        città
+                                                        <div class="mb-3">
+                                                            <label for="city" class="form-label">Città</label>
+                                                            <input type="text" class="form-control" id="city">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-4">
-                                                        stato
+                                                        <label for="country" class="form-label">Stato</label>
+                                                        <div class="input-group mb-3">
+                                                            <select class="form-select" id="inputGroupSelect01">
+                                                              <option selected>Scegli...</option>
+                                                              <option value="1">Italia</option>
+                                                              <option value="2">Francia</option>
+                                                              <option value="3">Germania</option>
+                                                            </select>
+                                                          </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-2">
-                                                        cap
+                                                        <div class="mb-3">
+                                                            <label for="cap" class="form-label">CAP</label>
+                                                            <input type="text" class="form-control" id="cap">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-12">
-                                                        foto
+                                                        <label for="photo" class="form-label">Foto</label>
+                                                        <div class="mb-3 input-group">
+                                                            <input type="file" class="form-control" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                                        </div>
                                                     </div>
 
                                                     <div class="col-12 col-sm-12">
-                                                        seleziona per proseguire
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Seleziona per proseguire</label>
+                                                        </div>
                                                     </div>
 
-                                                    <div class="col-auto">Salva</div>
-                                                    <div class="col-auto">Svuota</div>
+                                                    <div class="col-auto">
+                                                        <button type="submit" class="btn btn-primary">Salva</button>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <button type="submit" class="btn btn-secondary">Svuota</button>
+                                                    </div>
 
 
-                                                </div>
+                                                </form>
                                             </div>
 
                                         </div>
@@ -211,11 +258,11 @@
                                     <div class="col-auto">
                                         <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
                                             <ol class="breadcrumb">
-                                                <li class="breadcrumb-item"><a class="btn btn-primary btn-sm rounded-pill" href="#">3 app</a></li>
-                                                <li class="breadcrumb-item d-xl-none"><a class="btn btn-primary btn-sm rounded-pill" href="#"> + </a></li>
-                                                <li class="breadcrumb-item d-none d-xl-block"><a class="btn btn-primary btn-sm rounded-pill" href="#"> Boolean mobile app </a></li>
-                                                <li class="d-none d-xl-block"><a class="btn btn-primary btn-sm rounded-pill" href="#"> Boolean web app </a></li>
-                                                <li class="d-none d-xl-block"><a class="btn btn-primary btn-sm rounded-pill" href="#"> Boolean blog app </a></li>
+                                                <li class="breadcrumb-item"><a class="btn btn-alternative btn-sm rounded-pill" href="#">3 app</a></li>
+                                                <li class="breadcrumb-item d-xl-none"><a class="btn btn-alternative btn-sm rounded-pill" href="#"> + </a></li>
+                                                <li class="breadcrumb-item d-none d-xl-block"><a class="btn btn-alternative btn-sm rounded-pill" href="#"> Boolean mobile app </a></li>
+                                                <li class="d-none d-xl-block"><a class="btn btn-alternative btn-sm rounded-pill" href="#"> Boolean web app </a></li>
+                                                <li class="d-none d-xl-block"><a class="btn btn-alternative btn-sm rounded-pill" href="#"> Boolean blog app </a></li>
                                             </ol>
                                         </nav>
                                     </div>

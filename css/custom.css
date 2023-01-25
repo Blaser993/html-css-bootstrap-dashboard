@@ -98,7 +98,18 @@ ELEMENT RULES
 }
 
 .btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-secondary{
+    background-color: var(--secondary);
+    color: var(--black);
+    border: none;
+}
+
+.btn-alternative{
     background-color: var(--alternative);
+    color: var(--withe);
 }
 
 .btn-icon{
