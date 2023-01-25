@@ -57,9 +57,14 @@ LAYOUT RULES
 }
 
 .bla_sidebar{
+    background-image: url(../img/sidebar-bg.png);
     background-color: var(--bg-dark);
     color: var(--withe);
     width: 150px;
+}
+
+.bla_stucked-bot{
+    margin-top: 500px;
 }
 
 
