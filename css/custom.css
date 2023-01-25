@@ -44,6 +44,11 @@ LAYOUT RULES
 }
 
 .bla_main{
+    background-color: var(--bg-light);
+    color:var(--black) ;
+}
+
+.bla_dashboard{
     background-color: var(--primary);
     color: var(--withe);
 }
@@ -91,3 +96,11 @@ ELEMENT RULES
 
 
 
+/* ###########################################
+DEBUG RULES
+########################################### */
+
+.bla_dashboard [class ^="col-"]{
+    padding: 12px;
+    border: dashed 2px salmon;
+}
